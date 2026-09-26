@@ -1,0 +1,26 @@
+QUIZLY - PROJETO PREPARADO PARA GITHUB CODESPACES
+=================================================
+
+FLUXO RECOMENDADO
+
+1. Crie o repositório da equipe na organização educacaoprofissional.
+2. Descompacte este ZIP no computador.
+3. Envie O CONTEÚDO desta pasta para a RAIZ do repositório.
+   package.json e src devem ficar diretamente na raiz.
+4. No GitHub: Code > Codespaces > Create codespace on main.
+5. Aguarde a preparação automática do ambiente.
+6. No terminal execute:
+
+   npm start
+
+7. Abra a porta 5173 em PORTS / PORTAS.
+
+SE npm install NÃO tiver sido executado automaticamente:
+
+   npm install
+   npm start
+
+IMPORTANTE
+- Não envie node_modules ao GitHub.
+- Não execute npm audit fix --force sem orientação.
+- Não coloque esta pasta inteira dentro de outra pasta no repositório.
